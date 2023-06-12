@@ -1,0 +1,50 @@
+.text {
+    &_font {
+        &_Inter {
+            font-family: Inter, sans-serif;
+        }
+
+        &_Montserrat {
+            font-family: Montserrat, sans-serif;
+        }
+    }
+
+    &_color {
+        &_main {
+            color: var(--white);
+        }
+
+        &_disabled {
+            color: var(--white-dark);
+        }
+    }
+
+    &_weight {
+        &_400 {
+            font-weight: 400;
+        }
+
+        &_500 {
+            font-weight: 500;
+        }
+
+        &_700 {
+            font-weight: 700;
+        }
+    }
+
+    &_size {
+        &_sm {
+            font-size: 0.75rem;
+        }
+
+        &_md {
+            font-size: 0.875rem;
+            line-height: 1.25rem;
+        }
+
+        &_lg {
+            font-size: 1.25rem;
+        }
+    }
+}

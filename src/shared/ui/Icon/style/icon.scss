@@ -1,0 +1,14 @@
+.icon {
+    display: block;
+    font-size: 1rem;
+    line-height: 1em;
+
+    &.arrow-right-circle {
+        background: url('../../../../../public/arrow-right-circle.svg') center / cover no-repeat;
+    }
+
+    &.md {
+        width: 1em;
+        height: 1em;
+    }
+}

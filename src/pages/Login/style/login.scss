@@ -1,0 +1,24 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    max-width: 27.1875em;
+
+    &__body {
+        padding: 1.5em 2em 2em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    &__button-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}

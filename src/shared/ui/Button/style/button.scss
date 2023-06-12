@@ -1,0 +1,43 @@
+.button {
+    width: fit-content;
+    padding: 0.5em 1em !important;
+    cursor: pointer;
+    background: var(--green);
+    border: none;
+    border-radius: 0.25em;
+    font-size: 1rem;
+
+    &__content {
+        font-size: 0.875rem;
+        width: 100%;
+        display: flex;
+        gap: 0.375rem;
+        line-height: 1.25rem;
+        font-weight: 500;
+        font-family: Inter, sans-serif;
+        color: var(--white);
+        align-items: center;
+    }
+
+    &:hover {
+        background: var(--green-light);
+    }
+
+    &:active {
+        background: var(--green-dark);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--yellow);
+    }
+
+    &:disabled {
+        background: var(--black-super-light);
+
+        .button {
+            &__content {
+                color: var(--dark-green-light);
+            }
+        }
+    }
+}
